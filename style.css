@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    background:rgb(73, 53, 15) ;
+    position: relative;
+    width:400px;
+    height:400px;
+    margin: auto;
+}
+input[type="number"]
+{
+    background: white;
+    width:200px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 5px;
+}
+button
+{
+    text-align: center;
+    background: rgba(2, 172, 2, 0.770);
+    width:55px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 10;
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin: 1px;
+    margin-top: 2px;
+}
+div
+{
+    position: relative;
+}
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+#container {
+	position: relative;
+	margin:30px;
+}
+td {
+    background:white;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+form{
+    background:rgb(190, 187, 187);
+   
+}
+
